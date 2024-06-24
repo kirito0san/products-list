@@ -105,4 +105,17 @@ form input[type="submit"]:hover {
   width: 30%;
   height: 30px;
   user-select: none;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.quantity-btn:nth-child(1):hover {
+  background-color: #0cb90c;
+  color: white;
+}
+.quantity-btn:nth-child(2):hover {
+  background-color: #b90c0c;
+  color: white;
 }
